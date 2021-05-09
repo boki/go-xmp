@@ -46,7 +46,7 @@ func init() {
 	flag.BoolVar(&fxmp, "xmp", false, "enable XMP output")
 	flag.BoolVar(&fpath, "path", false, "enable XMP/Path output")
 	flag.BoolVar(&forig, "orig", false, "enable original XMP output")
-	flag.BoolVar(&fall, "all", false, "ouput all embedded xmp documents")
+	flag.BoolVar(&fall, "all", false, "output all embedded xmp documents")
 }
 
 func fail(v interface{}) {

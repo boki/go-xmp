@@ -20,7 +20,7 @@ import (
 	"trimmer.io/go-xmp/xmp"
 )
 
-type Rating int
+type Rating float64
 
 const (
 	RatingRejected Rating = -1
